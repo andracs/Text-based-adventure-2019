@@ -21,4 +21,3 @@ public class KelvinTamer extends SkabningsPrototype {
     }
 
 }
-

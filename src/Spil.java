@@ -1,6 +1,6 @@
 
 import Skabninger.Andras;
-import Skabninger.Baugh;
+
 import Skabninger.SkabningsListe;
 import Skabninger.SkabningsPrototype;
 import Skabninger.*;
@@ -38,6 +38,7 @@ public class Spil {
 
         // TODO Her skal alle nye skabninger tilføjes!
         Andras andras = new Andras();
+
         Baugh baugh = new Baugh();
         Tommy tommy = new Tommy();
         Rick rick = new Rick();
@@ -56,6 +57,7 @@ public class Spil {
         Putin p = new Putin();
         Thor t = new Thor();
         Toke toke = new Toke();
+
 
 
 
