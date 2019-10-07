@@ -1,7 +1,7 @@
 package Skabninger;
 
-public class Hund extends SkabningsPrototype {
-    public Hund() {
+public class Falconhoof extends SkabningsPrototype {
+    public Falconhoof() {
         super();
         this.navn = "Falconhoof";
         this.beskrivelse = "Host of Limmy's Show.";
