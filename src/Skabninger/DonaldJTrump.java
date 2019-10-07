@@ -6,7 +6,7 @@ public class DonaldJTrump extends SkabningsPrototype {
 
         this.navn = "DonaldJTrump";
         this.beskrivelse = "Den bedste person der nogensinde har gået på denne jord, mener han selv";
-        this.vaegt = 75;
+        this.vaegt = 110;
 
         laerNytEmne("Mur", "Ja du hørte rigtigt, jeg bygger en mur og mexicanerne betaler");
         laerNytEmne("politik", "Jeg har den bedste politik nogensinde, vent hvad er det nu det er?");
