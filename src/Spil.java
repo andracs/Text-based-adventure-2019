@@ -2,6 +2,7 @@ import Skabninger.Andras;
 import Skabninger.Katten_Otto;
 import Skabninger.SkabningsListe;
 import Skabninger.SkabningsPrototype;
+import Skabninger.Tommy;
 
 import java.util.Scanner;
 
@@ -35,6 +36,7 @@ public class Spil {
 
         // TODO Her skal alle nye skabninger tilføjes!
         Andras andras = new Andras();
+        Tommy tommy = new Tommy();
         Katten_Otto katten_otto = new Katten_Otto();
 
         // Her kører spillets loop
