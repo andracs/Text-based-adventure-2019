@@ -13,7 +13,7 @@ public class DonaldJTrump extends SkabningsPrototype {
         laerNytEmne("Mening om Putin", "Han er en fantastisk person, klart min bedste ven og han hjalp mig endda med og vinde valget");
         laerNytEmne("Ivanka Trump", "Lad mig sige det sådan her, hvis ikke hun var min datter... så var jeg ikke gift med Melanie.");
         laerNytEmne("Jobbet som præsident","Det er det bedste, jeg savner dog min middagslur");
-        laerNytEmne("Mcdonalds","Bedts. Aftensmad: NOGENSINDE!");
+        laerNytEmne("Mcdonalds","Bedts. Aftensmad. NOGENSINDE!");
     }
 
 }
