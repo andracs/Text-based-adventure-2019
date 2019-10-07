@@ -1,9 +1,3 @@
-/**
- * Developed by András Ács (acsandras@gmail.com)
- * Zealand / www.zealand.dk
- * Licensed under the MIT License
- * 06/10/2019
- */
 package Skabninger;
 
 public class KelvinTamer extends SkabningsPrototype {

@@ -1,7 +1,10 @@
+
 import Skabninger.Andras;
-import Skabninger.KelvinTamer;
+
 import Skabninger.SkabningsListe;
 import Skabninger.SkabningsPrototype;
+import Skabninger.*;
+
 
 import java.util.Scanner;
 
@@ -35,7 +38,7 @@ public class Spil {
 
         // TODO Her skal alle nye skabninger tilføjes!
         Andras andras = new Andras();
-        KelvinTamer kelvinTamer = new KelvinTamer();
+
 
         // Her kører spillets loop
         Scanner scanner = new Scanner(System.in);
