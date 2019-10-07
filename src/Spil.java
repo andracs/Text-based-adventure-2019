@@ -1,4 +1,10 @@
+
+import Skabninger.Andras;
+import Skabninger.Baugh;
+import Skabninger.SkabningsListe;
+import Skabninger.SkabningsPrototype;
 import Skabninger.*;
+
 
 import java.util.Scanner;
 
@@ -32,9 +38,15 @@ public class Spil {
 
         // TODO Her skal alle nye skabninger tilføjes!
         Andras andras = new Andras();
+        Baugh baugh = new Baugh();
         Tommy tommy = new Tommy();
-        Katten_Otto katten_otto = new Katten_Otto();
         Rick rick = new Rick();
+
+        Katten_Otto katten_otto = new Katten_Otto();
+        PeterPlys peterPlys = new PeterPlys();
+        Thor thor = new Thor();
+        Falconhoof f = new Falconhoof();
+
 
         // Her kører spillets loop
         Scanner scanner = new Scanner(System.in);
