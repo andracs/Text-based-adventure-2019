@@ -40,8 +40,9 @@ public class Spil {
         Andras andras = new Andras();
         Baugh baugh = new Baugh();
         Tommy tommy = new Tommy();
+
         Katten_Otto katten_otto = new Katten_Otto();
-        Rick rick = new Rick();
+        PeterPlys peterPlys = new PeterPlys();
 
         // Her kører spillets loop
         Scanner scanner = new Scanner(System.in);
