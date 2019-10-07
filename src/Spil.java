@@ -1,4 +1,5 @@
 import Skabninger.Andras;
+import Skabninger.Baugh;
 import Skabninger.SkabningsListe;
 import Skabninger.SkabningsPrototype;
 
@@ -34,7 +35,7 @@ public class Spil {
 
         // TODO Her skal alle nye skabninger tilføjes!
         Andras andras = new Andras();
-
+        Baugh baugh = new Baugh();
         // Her kører spillets loop
         Scanner scanner = new Scanner(System.in);
         String kommando = "";
