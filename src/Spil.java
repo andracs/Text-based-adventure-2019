@@ -1,6 +1,7 @@
 import Skabninger.Andras;
 import Skabninger.SkabningsListe;
 import Skabninger.SkabningsPrototype;
+import Skabninger.Tommy;
 
 import java.util.Scanner;
 
@@ -34,6 +35,7 @@ public class Spil {
 
         // TODO Her skal alle nye skabninger tilføjes!
         Andras andras = new Andras();
+        Tommy tommy = new Tommy();
 
         // Her kører spillets loop
         Scanner scanner = new Scanner(System.in);
