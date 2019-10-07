@@ -40,6 +40,7 @@ public class Spil {
         Andras andras = new Andras();
         Baugh baugh = new Baugh();
         Tommy tommy = new Tommy();
+        Rick rick = new Rick();
 
         Katten_Otto katten_otto = new Katten_Otto();
         PeterPlys peterPlys = new PeterPlys();
