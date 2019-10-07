@@ -1,4 +1,5 @@
 import Skabninger.Andras;
+import Skabninger.Katten_Otto;
 import Skabninger.SkabningsListe;
 import Skabninger.SkabningsPrototype;
 
@@ -34,6 +35,7 @@ public class Spil {
 
         // TODO Her skal alle nye skabninger tilføjes!
         Andras andras = new Andras();
+        Katten_Otto katten_otto = new Katten_Otto();
 
         // Her kører spillets loop
         Scanner scanner = new Scanner(System.in);
