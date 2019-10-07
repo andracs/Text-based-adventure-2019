@@ -10,6 +10,7 @@ public class Andras extends SkabningsPrototype {
 
     public Andras() {
         super();
+        
         this.navn = "András";
         this.beskrivelse = "Lidt nørdet, men meget geek.";
         this.vaegt = 75;
