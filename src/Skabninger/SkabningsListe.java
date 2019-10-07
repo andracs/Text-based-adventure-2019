@@ -26,7 +26,7 @@ public class SkabningsListe {
         int nummer = 0;
         String resultat = "";
         for (SkabningsPrototype skabning : alleSkabninger) {
-            resultat+= ++nummer + ". " + skabning.navn;
+            resultat+= ++nummer + ". " + skabning.navn + " \n";
         }
         return resultat;
     }

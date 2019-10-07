@@ -44,6 +44,9 @@ public class Spil {
         Katten_Otto katten_otto = new Katten_Otto();
         PeterPlys peterPlys = new PeterPlys();
         Thor thor = new Thor();
+        Falconhoof f = new Falconhoof();
+
+
         // Her kører spillets loop
         Scanner scanner = new Scanner(System.in);
         String kommando = "";

@@ -40,7 +40,7 @@ public abstract class SkabningsPrototype {
     }
 
     public String sigeNogetOm(String emne) {
-        return kanSnakkeOm.get(emne);
+        return navn + " siger: " + kanSnakkeOm.get(emne);
     }
 
 }
