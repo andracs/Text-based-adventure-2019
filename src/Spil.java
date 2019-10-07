@@ -41,11 +41,22 @@ public class Spil {
         Baugh baugh = new Baugh();
         Tommy tommy = new Tommy();
         Rick rick = new Rick();
-
         Katten_Otto katten_otto = new Katten_Otto();
         PeterPlys peterPlys = new PeterPlys();
         Thor thor = new Thor();
         Falconhoof f = new Falconhoof();
+        Laila l = new Laila();
+        DragonBorn d = new DragonBorn();
+        Gulddreng g = new Gulddreng();
+        Hund hund = new Hund();
+        Kaffe k = new Kaffe();
+        KelvinTamer kelvinTamer = new KelvinTamer();
+        Merlin m = new Merlin();
+        MrBedreViden mr = new MrBedreViden();
+        Putin p = new Putin();
+        Thor t = new Thor();
+        Toke toke = new Toke();
+
 
 
         // Her kører spillets loop
