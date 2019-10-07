@@ -34,7 +34,7 @@ public class Spil {
         Andras andras = new Andras();
         Katten_Otto katten_otto = new Katten_Otto();
         PeterPlys peterPlys = new PeterPlys();
-
+        Thor thor = new Thor();
         // Her kører spillets loop
         Scanner scanner = new Scanner(System.in);
         String kommando = "";
