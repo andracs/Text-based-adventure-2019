@@ -62,7 +62,7 @@ public class Spil {
         while(true) {
             System.out.println("Hvem vil du snakke med?");
             System.out.println(SkabningsListe.listSkabninger() + " (Skriv 0 for ikke at snakke med nogen.)");
-            kommando = scanner.next();
+            kommando = scanner.nextLine();
 
             // Hvis brugeren skriver slut, så stopper spillet
             if (kommando.equalsIgnoreCase("0")) {
@@ -77,7 +77,7 @@ public class Spil {
                 samtalePartner = SkabningsListe.hentSkabning(tal);
                 while (true) {
                     System.out.println("Du kan snakke om " + samtalePartner.kanSnakkeOmEmner() + " eller --> farvel for at komme videre. Hvad vil du spørge om?");
-                    kommando = scanner.next();
+                    kommando = scanner.nextLine();
                     if (kommando.equalsIgnoreCase("farvel") ||  kommando.equals("")) {
                         System.out.println("I snakker ikke mere denne gang.");
                         break;
