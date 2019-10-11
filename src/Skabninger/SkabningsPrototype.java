@@ -30,7 +30,7 @@ public abstract class SkabningsPrototype {
     /** Skabningen kan snakke om disse emner (returnerer String) */
     public String kanSnakkeOmEmner() {
 
-        return String.join(", ", kanSnakkeOm.keySet());
+        return "-->  " + String.join("    -->  ", kanSnakkeOm.keySet()) + "    ";
     }
 
     /** Skabningen kan lære en saetning om et emne, returnere OK, hvis sætning er lært */

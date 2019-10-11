@@ -9,7 +9,7 @@ package Skabninger;
 public class Andras extends SkabningsPrototype {
 
     public Andras() {
-        super();
+        //super();
         
         this.navn = "András";
         this.beskrivelse = "Lidt nørdet, men meget geek.";
